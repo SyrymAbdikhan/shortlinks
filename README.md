@@ -1,6 +1,7 @@
 # shortlinks
 
 [![CI](https://github.com/SyrymAbdikhan/shortlinks/actions/workflows/ci.yml/badge.svg)](https://github.com/SyrymAbdikhan/shortlinks/actions/workflows/ci.yml)
+[![CD](https://github.com/SyrymAbdikhan/shortlinks/actions/workflows/cd.yml/badge.svg)](https://github.com/SyrymAbdikhan/shortlinks/actions/workflows/cd.yml)
 
 Minimal URL shortener REST API built with FastAPI, PostgreSQL, and Docker.
 
