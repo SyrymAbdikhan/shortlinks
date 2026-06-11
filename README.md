@@ -33,7 +33,6 @@ Interactive docs: `http://localhost:8000/docs`
 | `POSTGRES_USER`     | Database username              | `postgres`   |
 | `POSTGRES_PASSWORD` | Database password              | `postgres`   |
 | `POSTGRES_DB`       | Database name                  | `shortlinks` |
-| `POSTGRES_PORT`     | Database port                  | `5432`       |
 | `API_KEY`           | Static key for write endpoints | —            |
 
 `DATABASE_URL` is assembled automatically from the above vars in `docker-compose.yml`.  
@@ -112,6 +111,10 @@ make test        # run test suite
 make lint        # check with ruff
 make format      # auto-fix formatting
 ```
+
+## Deployment
+
+See [DEPLOYMENT.md](DEPLOYMENT.md) for VPS setup and CI/CD configuration.
 
 ## Project structure
 
